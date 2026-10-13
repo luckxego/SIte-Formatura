@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>IHG® — Formatura do 9º Ano</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+    >
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div id="ld">
+      <b>IHG®</b>
+      <span class="mono"><span id="lc" style="position:static">000</span> — Formatura 9º ano</span>
+    </div>
+    <div id="cur"></div>
+    <canvas id="gl"></canvas>
+
+    <nav class="nav" id="nv">
+      <div class="wrap">
+        <a class="logo" href="#inicio">IHG<sup>®</sup></a>
+        <div class="links" id="links">
+          <a href="#inicio">Início</a>
+          <a href="#ingressos">Ingressos</a>
+          <a href="#evento">O evento</a>
+          <a href="#faq">FAQ</a>
+          <a class="btn" href="#ingressos">Comprar ingresso</a>
+        </div>
+        <button class="burger" id="burger" aria-label="Menu"><i></i><i></i></button>
+      </div>
+    </nav>
+
+    <header class="hero" id="inicio">
+      <div class="hud tr mono">Formatura 9º ano<br>Tema neon — 2026</div>
+      <div class="wrap" style="width:100%">
+        <div class="lab mono"><i></i>Instituto Helena Goullart</div>
+        <h1 class="sp rv">A nossa última fase<br>começa agora.</h1>
+        <div class="hrow">
+          <p>Formatura do 9º Ano — uma noite para ficar na memória. Ingressos limitados: 15, 20 e 25 reais.</p>
+          <div class="cta">
+            <a class="btn" href="#ingressos">Comprar ingresso</a>
+            <a class="btn out" href="#evento">Ver detalhes</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="pulseiras">
+      <div class="stk">
+        <div class="lab mono"><i></i>02 — Pulseiras</div>
+        <div class="pnl">
+          <div class="pi on">
+            <span class="pill">Aluno</span>
+            <h2>Pulseira<br>preta</h2>
+            <div class="num">R$ 15</div>
+            <p>A entrada do aluno IHG. Identificação na porta pela cor.</p>
+          </div>
+          <div class="pi">
+            <span class="pill">Ex-aluno</span>
+            <h2>Pulseira<br>amarela</h2>
+            <div class="num">R$ 20</div>
+            <p>Para quem já passou pelo IHG e volta para a última fase.</p>
+          </div>
+          <div class="pi">
+            <span class="pill">Público externo</span>
+            <h2>Pulseira<br>branca</h2>
+            <div class="num">R$ 25</div>
+            <p>Convidados e familiares dos formandos.</p>
+          </div>
+        </div>
+        <div class="dots mono">
+          <i class="on"></i>
+          <i></i>
+          <i></i>
+          <span>Role para trocar</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="ingressos">
+      <div class="wrap">
+        <div class="lab mono rv"><i></i>03 — Ingressos</div>
+        <h2 class="sp rv">Escolha seu<br>ingresso.</h2>
+        <div class="tg" id="tg"></div>
+      </div>
+    </section>
+
+    <section id="checkout">
+      <div class="wrap">
+        <div class="lab mono"><i></i>Compra</div>
+        <h2 style="margin-top:14px">Finalize sua entrada.</h2>
+        <div class="steps" id="steps"></div>
+        <div id="cobody"></div>
+      </div>
+    </section>
+
+    <section id="digital">
+      <div class="wrap">
+        <div class="lab mono"><i></i>Ingresso digital</div>
+        <h2 style="margin-top:14px">Ingresso confirmado.</h2>
+        <div class="ticket" id="ticket"></div>
+        <div class="row" style="justify-content:center">
+          <button class="btn out" onclick="window.print()">Imprimir / salvar</button>
+          <a class="btn" href="#inicio">Voltar ao início</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="evento">
+      <div class="wrap">
+        <div class="ev">
+          <div>
+            <div class="lab mono rv"><i></i>04 — O evento</div>
+            <h2 class="sp rv" style="margin-top:16px">Uma noite<br>para lembrar.</h2>
+            <p class="rv">A celebração da conclusão do 9º ano do Instituto Helena Goullart.</p>
+          </div>
+
+          <div class="ph3 rv">
+            <div class="ph mono">Foto 01</div>
+            <div class="ph mono">Foto 02</div>
+          </div>
+        </div>
+        <div class="stats">
+          <div class="stat rv">
+            <b>09</b>
+            <span>anos de história chegando ao fim</span>
+          </div>
+          <div class="stat rv">
+            <b>03</b>
+            <span>categorias, três cores de pulseira</span>
+          </div>
+          <div class="stat rv">
+            <b>01</b>
+            <span>noite para ficar na memória</span>
+          </div>
+        </div>
+        <div class="cd rv" id="cd"></div>
+      </div>
+    </section>
+
+    <section id="faq">
+      <div class="wrap">
+        <div class="lab mono rv"><i></i>05 — FAQ</div>
+        <h2 class="sp rv" style="margin-top:16px">Perguntas<br>frequentes.</h2>
+        <div class="faq" id="faqs"></div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="wrap">
+        <div class="giant">IHG®</div>
+        <div class="f mono">
+          <span>Instituto Helena Goullart  Formatura 9º ano</span>
+          <span>© 2026 Instituto Helena Goullart</span>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="js/ui-3d.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
